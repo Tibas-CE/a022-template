@@ -5,17 +5,20 @@
   body{
     font-family: sans-serif;
     background-color: #004643;
+    text-align: center;
   }
   
   header{
     padding: 20px;
     color: #abd1c6;
   }
+  
   main{
     height: 1200px;
     padding: 20px;
     background-color: #e8e4e6;
     margin: 10px;
+    position: relative;
   }
   
   section{
@@ -25,14 +28,38 @@
     padding: 20px;
     margin: 10px 0;
   }
+
+  .canto-inferio-direito{
+    /* position: relative;
+    bottom: -1030px;
+    right: -1070px; */
+    position: absolute;
+    bottom: 0%;
+    right: 10px;
+  }
+
+  .nao-mudo{
+    position: relative;
+    bottom: 10px;
+  }
   
   nav{
     padding: 20px;
     background-color: white;
+    position: sticky;
+    top: 0px;
+  }
+
+  button:active{
+    background-color: green;
   }
   
   footer{
     background-color: #abd1c6;
     padding: 20px;
     text-align: center;
+  }
+  
+  footer:hover{
+    background-color: yellow;
   }
